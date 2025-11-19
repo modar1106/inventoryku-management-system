@@ -1,0 +1,1 @@
+<img src="{{ asset('images/inventoryku_logo.png') }}" alt="InventoryKu Logo" {{ $attributes }}>
