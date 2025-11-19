@@ -35,6 +35,7 @@
                         <thead class="bg-gray-50">
                             <tr>
                                 <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">Name</th>
+                                <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">Contact Person</th>
                                 <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">Phone</th>
                                 <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">Address</th>
                                 <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">Action</th>
@@ -45,6 +46,7 @@
                             <tr>
                                 <td class="px-6 py-4 whitespace-nowrap text-center">{{  $supplier->name }}</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-center">{{  $supplier->contact_person }}</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-center">{{  $supplier->phone }}</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-center">{{  $supplier->address }}</td>
                                 <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
                                     {{-- Tombol Action (Di Tengah) --}}
